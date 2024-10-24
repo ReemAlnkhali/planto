@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4CAA1BF42CC8E91D00873348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAA1BDB2CC8E91C00873348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAA1BE22CC8E91C00873348;
+			remoteInfo = "Plants app reminder";
+		};
+		4CAA1BFE2CC8E91D00873348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAA1BDB2CC8E91C00873348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAA1BE22CC8E91C00873348;
+			remoteInfo = "Plants app reminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CAA1BE32CC8E91C00873348 /* Plants app reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plants app reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAA1BF32CC8E91D00873348 /* Plants app reminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plants app reminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAA1BFD2CC8E91D00873348 /* Plants app reminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plants app reminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4CAA1BE52CC8E91C00873348 /* Plants app reminder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plants app reminder";
+			sourceTree = "<group>";
+		};
+		4CAA1BF62CC8E91D00873348 /* Plants app reminderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plants app reminderTests";
+			sourceTree = "<group>";
+		};
+		4CAA1C002CC8E91D00873348 /* Plants app reminderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plants app reminderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAA1BE02CC8E91C00873348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA1BF02CC8E91D00873348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA1BFA2CC8E91D00873348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAA1BDA2CC8E91C00873348 = {
+			isa = PBXGroup;
+			children = (
+				4CAA1BE52CC8E91C00873348 /* Plants app reminder */,
+				4CAA1BF62CC8E91D00873348 /* Plants app reminderTests */,
+				4CAA1C002CC8E91D00873348 /* Plants app reminderUITests */,
+				4CAA1BE42CC8E91C00873348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAA1BE42CC8E91C00873348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAA1BE32CC8E91C00873348 /* Plants app reminder.app */,
+				4CAA1BF32CC8E91D00873348 /* Plants app reminderTests.xctest */,
+				4CAA1BFD2CC8E91D00873348 /* Plants app reminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAA1BE22CC8E91C00873348 /* Plants app reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAA1C072CC8E91D00873348 /* Build configuration list for PBXNativeTarget "Plants app reminder" */;
+			buildPhases = (
+				4CAA1BDF2CC8E91C00873348 /* Sources */,
+				4CAA1BE02CC8E91C00873348 /* Frameworks */,
+				4CAA1BE12CC8E91C00873348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4CAA1BE52CC8E91C00873348 /* Plants app reminder */,
+			);
+			name = "Plants app reminder";
+			packageProductDependencies = (
+			);
+			productName = "Plants app reminder";
+			productReference = 4CAA1BE32CC8E91C00873348 /* Plants app reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAA1BF22CC8E91D00873348 /* Plants app reminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAA1C0A2CC8E91D00873348 /* Build configuration list for PBXNativeTarget "Plants app reminderTests" */;
+			buildPhases = (
+				4CAA1BEF2CC8E91D00873348 /* Sources */,
+				4CAA1BF02CC8E91D00873348 /* Frameworks */,
+				4CAA1BF12CC8E91D00873348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAA1BF52CC8E91D00873348 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4CAA1BF62CC8E91D00873348 /* Plants app reminderTests */,
+			);
+			name = "Plants app reminderTests";
+			packageProductDependencies = (
+			);
+			productName = "Plants app reminderTests";
+			productReference = 4CAA1BF32CC8E91D00873348 /* Plants app reminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CAA1BFC2CC8E91D00873348 /* Plants app reminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAA1C0D2CC8E91D00873348 /* Build configuration list for PBXNativeTarget "Plants app reminderUITests" */;
+			buildPhases = (
+				4CAA1BF92CC8E91D00873348 /* Sources */,
+				4CAA1BFA2CC8E91D00873348 /* Frameworks */,
+				4CAA1BFB2CC8E91D00873348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAA1BFF2CC8E91D00873348 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4CAA1C002CC8E91D00873348 /* Plants app reminderUITests */,
+			);
+			name = "Plants app reminderUITests";
+			packageProductDependencies = (
+			);
+			productName = "Plants app reminderUITests";
+			productReference = 4CAA1BFD2CC8E91D00873348 /* Plants app reminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAA1BDB2CC8E91C00873348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4CAA1BE22CC8E91C00873348 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4CAA1BF22CC8E91D00873348 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4CAA1BE22CC8E91C00873348;
+					};
+					4CAA1BFC2CC8E91D00873348 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4CAA1BE22CC8E91C00873348;
+					};
+				};
+			};
+			buildConfigurationList = 4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Plants app reminder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAA1BDA2CC8E91C00873348;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4CAA1BE42CC8E91C00873348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAA1BE22CC8E91C00873348 /* Plants app reminder */,
+				4CAA1BF22CC8E91D00873348 /* Plants app reminderTests */,
+				4CAA1BFC2CC8E91D00873348 /* Plants app reminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAA1BE12CC8E91C00873348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA1BF12CC8E91D00873348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA1BFB2CC8E91D00873348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAA1BDF2CC8E91C00873348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA1BEF2CC8E91D00873348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA1BF92CC8E91D00873348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAA1BF52CC8E91D00873348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAA1BE22CC8E91C00873348 /* Plants app reminder */;
+			targetProxy = 4CAA1BF42CC8E91D00873348 /* PBXContainerItemProxy */;
+		};
+		4CAA1BFF2CC8E91D00873348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAA1BE22CC8E91C00873348 /* Plants app reminder */;
+			targetProxy = 4CAA1BFE2CC8E91D00873348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CAA1C052CC8E91D00873348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CAA1C062CC8E91D00873348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAA1C082CC8E91D00873348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plants app reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = KK84KGXAUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodehub.Plants-app-reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CAA1C092CC8E91D00873348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plants app reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = KK84KGXAUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodehub.Plants-app-reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CAA1C0B2CC8E91D00873348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK84KGXAUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodehub.Plants-app-reminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plants app reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plants app reminder";
+			};
+			name = Debug;
+		};
+		4CAA1C0C2CC8E91D00873348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK84KGXAUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodehub.Plants-app-reminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plants app reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plants app reminder";
+			};
+			name = Release;
+		};
+		4CAA1C0E2CC8E91D00873348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK84KGXAUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodehub.Plants-app-reminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plants app reminder";
+			};
+			name = Debug;
+		};
+		4CAA1C0F2CC8E91D00873348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK84KGXAUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodehub.Plants-app-reminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plants app reminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Plants app reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAA1C052CC8E91D00873348 /* Debug */,
+				4CAA1C062CC8E91D00873348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAA1C072CC8E91D00873348 /* Build configuration list for PBXNativeTarget "Plants app reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAA1C082CC8E91D00873348 /* Debug */,
+				4CAA1C092CC8E91D00873348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAA1C0A2CC8E91D00873348 /* Build configuration list for PBXNativeTarget "Plants app reminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAA1C0B2CC8E91D00873348 /* Debug */,
+				4CAA1C0C2CC8E91D00873348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAA1C0D2CC8E91D00873348 /* Build configuration list for PBXNativeTarget "Plants app reminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAA1C0E2CC8E91D00873348 /* Debug */,
+				4CAA1C0F2CC8E91D00873348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAA1BDB2CC8E91C00873348 /* Project object */;
+}
