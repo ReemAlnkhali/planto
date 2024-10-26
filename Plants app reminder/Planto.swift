@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Plants_app_reminderApp: App {
+struct Planto: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

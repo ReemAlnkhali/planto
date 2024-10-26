@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Plants app reminder" */;
+			buildConfigurationList = 4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Planto 🌱" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Plants app reminder" */ = {
+		4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Planto 🌱" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CAA1C052CC8E91D00873348 /* Debug */,

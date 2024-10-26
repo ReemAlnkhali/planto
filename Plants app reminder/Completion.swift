@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct EndView: View {
+struct ComplationView: View {
     var body: some View {
         NavigationStack {
             VStack {
@@ -22,7 +22,7 @@ struct EndView: View {
                     .padding(.bottom, 260.0)
                 
                 // Navigation link for plus image
-                NavigationLink(destination: AddPlantView()) {
+                NavigationLink(destination: SetReminderView()) {
                     Image(systemName: "plus.diamond.fill")
                         .aspectRatio(contentMode: .fit)
                         .foregroundColor(Color("green1"))
@@ -37,23 +37,25 @@ struct EndView: View {
     }
 }
 
-struct AddPlantView: View {
-    var body: some View {
-        VStack {
-            Text("Add a New Plant")
-                .font(.largeTitle)
-                .padding()
 
-            // Add your form or other content here
-            Text("Form for adding a plant will go here.")
-            
-            Spacer()
-        }
-        .navigationTitle("Add Plant")
-        .navigationBarTitleDisplayMode(.inline)
-    }
-}
 
 #Preview {
-    EndView()
+    ComplationView()
 }
+/*/struct AddPlantView: View {
+	var body: some View {
+		VStack {
+			Text("Add a New Plant")
+				.font(.largeTitle)
+				.padding()
+
+			// Add your form or other content here
+			Text("Form for adding a plant will go here.")
+			
+			Spacer()
+				.padding()
+			
+	//*/*    }/*
+   //     .navigationTitle("Add Plant")
+	 //   .navigationBarTitleDisplayMode(.inline)
+			   '/*'*/*/*/*/*/
