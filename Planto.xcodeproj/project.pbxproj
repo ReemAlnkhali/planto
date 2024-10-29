@@ -23,13 +23,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C4191DC2CCE30CB008B8374 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4C4191CA2CCE30CB008B8374 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4C4191CC2CCE30CB008B8374 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		4CAA1BE32CC8E91C00873348 /* Plants app reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plants app reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAA1BF32CC8E91D00873348 /* Plants app reminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plants app reminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAA1BFD2CC8E91D00873348 /* Plants app reminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plants app reminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C4191C22CCE2F75008B8374 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C4191CE2CCE30CB008B8374 /* planto */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = planto;
+			sourceTree = "<group>";
+		};
 		4CAA1BE52CC8E91C00873348 /* Plants app reminder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Plants app reminder";
@@ -72,12 +97,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C4191C92CCE30CB008B8374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C4191CA2CCE30CB008B8374 /* UserNotifications.framework */,
+				4C4191CC2CCE30CB008B8374 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CAA1BDA2CC8E91C00873348 = {
 			isa = PBXGroup;
 			children = (
+				4C4191C22CCE2F75008B8374 /* Preview Content */,
 				4CAA1BE52CC8E91C00873348 /* Plants app reminder */,
 				4CAA1BF62CC8E91D00873348 /* Plants app reminderTests */,
 				4CAA1C002CC8E91D00873348 /* Plants app reminderUITests */,
+				4C4191CE2CCE30CB008B8374 /* planto */,
+				4C4191C92CCE30CB008B8374 /* Frameworks */,
 				4CAA1BE42CC8E91C00873348 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,12 +139,14 @@
 				4CAA1BDF2CC8E91C00873348 /* Sources */,
 				4CAA1BE02CC8E91C00873348 /* Frameworks */,
 				4CAA1BE12CC8E91C00873348 /* Resources */,
+				4C4191DC2CCE30CB008B8374 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				4C4191C22CCE2F75008B8374 /* Preview Content */,
 				4CAA1BE52CC8E91C00873348 /* Plants app reminder */,
 			);
 			name = "Plants app reminder";
@@ -186,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Planto 🌱" */;
+			buildConfigurationList = 4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Planto" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -321,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -378,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -395,10 +434,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Plants app reminder/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Plants\\ app\\ reminder";
 				DEVELOPMENT_TEAM = KK84KGXAUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Planto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,10 +465,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Plants app reminder/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Plants\\ app\\ reminder";
 				DEVELOPMENT_TEAM = KK84KGXAUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Planto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -521,7 +564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Planto 🌱" */ = {
+		4CAA1BDE2CC8E91C00873348 /* Build configuration list for PBXProject "Planto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CAA1C052CC8E91D00873348 /* Debug */,
