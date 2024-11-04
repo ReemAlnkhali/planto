@@ -13,10 +13,3 @@ The Plant Routine app is designed for plant enthusiasts who want to ensure their
 - View plant care tips and routines
 - User-friendly interface with intuitive navigation
 
-## Installation
-
-To install the Plant Routine app locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/plant-routine.git
