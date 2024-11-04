@@ -1,3 +1,4 @@
+![Plant Reminder Screenshot](./assets/images/your-image.jpg)
 
  ![Uploading Cream Modern Corporate Download Our App Minimal Instagram Story.png…]()
 
