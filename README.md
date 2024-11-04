@@ -16,7 +16,7 @@ making plant care effortless and enjoyable.
 - Add and manage multiple plants
 - Easy-to-use interface to track plant health
 
-##Contact
+## Contact
 
 For inquiries, suggestions, or issues, feel free to contact me at:
 📧 Reemalnkhali@gmail.com
