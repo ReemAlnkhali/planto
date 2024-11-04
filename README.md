@@ -1,4 +1,4 @@
- # Plant Routine
+ # Plant Routine 🌱
 
 A simple application to help plant owners keep track of their plant care routines. This app allows users to set reminders for watering, fertilizing, and other essential plant care tasks.
 
@@ -13,3 +13,4 @@ The Plant Routine app is designed for plant enthusiasts who want to ensure their
 - View plant care tips and routines
 - User-friendly interface with intuitive navigation
 
+##Contact
