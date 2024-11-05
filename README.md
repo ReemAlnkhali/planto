@@ -1,7 +1,9 @@
-![Plant Reminder Screenshot](./assets/images/your-image.jpg)
 
-![Plant Reminder Screenshot]({Uploading Cream Modern Corporate Download Our App Minimal Instagram Story.png…]
+
+![Uploading Cream Modern Corporate Download Our App Minimal Instagram Story.jpg…]()
+
  # Plant Reminder app 🌱
+ 
 
 A simple application to help plant owners keep track of their plant care routines. 
 This app allows users to set reminders for watering.
