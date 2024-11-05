@@ -1,5 +1,5 @@
 
-![File cover -1](Uploading Cream Modern Corporate Download Our App Minimal Instagram Story.jpg)
+![file cover -1](Uploading Cream Modern Corporate Download Our App Minimal Instagram Story.jpg)
 
  # Plant Reminder app 🌱
  
