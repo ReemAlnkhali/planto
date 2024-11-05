@@ -20,6 +20,4 @@ making plant care effortless and enjoyable.
 - Easy-to-use interface to track plant health
 
 ## Contact
-
-For inquiries, suggestions, or issues, feel free to contact me at:
 📧 Reemalnkhali@gmail.com
